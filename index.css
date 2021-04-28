@@ -48,6 +48,7 @@ body{
     margin: 0 8vw;
     color: whitesmoke;
     height: 55.5vh;
+    position: relative;
 }
 h1{  
     text-align: center;
@@ -83,8 +84,8 @@ button:hover{
     text-align: center;
     position: absolute;
     margin-top: 2vh;
-    bottom: 7vh;
-    left: 34vw;
+    bottom: 5vh;
+    left: 25vw;
 
 }
 i {
@@ -121,6 +122,9 @@ footer{
     button{
         padding: 1.5vh 12vw;
         margin: 4vh 20vw;
+    }
+    .icons{
+        bottom:4vh;
     }
     footer{
         height: 4vh;
@@ -164,7 +168,7 @@ footer{
         padding: 1.5vh 16vw;
     }
     .icons{
-        left: 43vw;
+        left: 30vw;
         bottom: 4vh;
     }
     .attribution{
@@ -229,7 +233,8 @@ footer{
         font-size: 1em;
     }
     .icons{
-        left: 85vw;
+        left: unset;
+        right: 5vw;
         bottom: 4vh;
     }
     footer{

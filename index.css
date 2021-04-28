@@ -113,6 +113,10 @@ footer{
     .wrapper{
         height: 96vh;
     }
+    .image img{
+        width: 30vw;
+        margin-left: 35vw;
+    }
     h1{
         font-size: 1em;
     }

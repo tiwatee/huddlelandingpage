@@ -1,4 +1,4 @@
-*, body{
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -66,9 +66,9 @@ h3{
 }
 button{
     font-family: opensan;
-    margin: 4vh 15vw;
+    margin: 4vh 18vw;
     font-size: 0.7em;
-    padding: 1.5vh 20vw;
+    padding: 1.5vh 17vw;
     border-radius: 50px;
     outline: none;
     border: none;
@@ -85,7 +85,7 @@ button:hover{
     position: absolute;
     margin-top: 2vh;
     bottom: 5vh;
-    left: 25vw;
+    left: 26vw;
 
 }
 i {
@@ -93,7 +93,7 @@ i {
     background: none;
     padding: 6px 8px;
     border-radius: 100% 100%;
-    margin: 0 5px;
+    margin: 0 1vw;
 }
 i:hover{
     color: hsl(300, 69%, 71%);
@@ -120,10 +120,11 @@ footer{
         font-size: 0.7em;
     }
     button{
-        padding: 1.5vh 12vw;
-        margin: 4vh 20vw;
+        padding: 1.5vh 10vw;
+        margin: 4vh 28vw;
     }
     .icons{
+        left: 33vw;
         bottom:4vh;
     }
     footer{
@@ -150,8 +151,6 @@ footer{
         height: 35vh;
         margin-left: 10vw;
     }
-
-
     .lower-body{
         margin: auto 10vw;
         height: 45vh;
@@ -178,27 +177,23 @@ footer{
 }
 
 @media only screen and (min-width:1024px)and (orientation:landscape){
-    body{
-        width: 100vw;
-    }
     .wrapper{
         display: grid;
         background-image: url(./images/bg-desktop.svg);
         background-repeat: no-repeat;
-        background-size: 95vw 100vh;
+        background-size: 95vw 96vh;
         grid-template-columns: auto auto;
+        margin: 0;
         grid-gap: 0;
         padding: 0;
         width: 100vw;
-        height: 96.8vh;
-        /* background-color: tomato; */
+        height: 96vh;
        
     }
     .top-body{
         width: 50vw;
-        height: 97vh;
-        /* background-color: thistle; */
-        margin: 0;
+        height: 96vh;
+        margin: 0 0;
         
     }
     .header{
@@ -206,6 +201,9 @@ footer{
     }
     .header img{
         margin-left: 5vw;
+    }
+    .image{
+        width: unset;
     }
     .image img{
         width: 40vw;
@@ -215,30 +213,31 @@ footer{
     .lower-body{
         width: 50vw;
         margin: 0 0;
-        height: 97vh;
-        padding: 30vh 4vw;
-        /* background-color: tomato; */
+        height: 96vh;
+        padding-top: 30vh;
     }
     h1{
+        margin: auto 4vw;
         font-size: 2em;
         text-align: unset;
     }
     h3{
+        margin: auto 4vw;
         font-size: 0.9em;
         text-align: unset;
     }
     button{
-        margin-left: 0;
+        margin: 4vh 0 0 4vw;
         padding: 2vh 7vw;
         font-size: 1em;
     }
     .icons{
         left: unset;
-        right: 5vw;
+        right: 4vw;
         bottom: 4vh;
     }
     footer{
-        height: 3vh;
+        height: 4vh;
     }
     .attribution{
         font-size: 1em;
